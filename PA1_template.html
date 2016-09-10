@@ -162,6 +162,7 @@ barplot(step_sum$x,names.arg = step_sum$Group.1,xlab = &quot;Date&quot;,ylab = &
 </ol>
 <pre class="r"><code>median(step_sum$x,na.rm=TRUE)</code></pre>
 <pre><code>## [1] 10765</code></pre>
+<p>The median total number of steps taken each day is 10,765.</p>
 </div>
 <div id="what-is-the-average-daily-activity-pattern" class="section level2">
 <h2>What is the average daily activity pattern?</h2>
@@ -212,12 +213,14 @@ barplot(step_sum2$x,names.arg = step_sum2$Group.1,xlab = &quot;Date&quot;,ylab =
 </ol>
 <pre class="r"><code>mean(step_sum2$x,na.rm=TRUE)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
+<p>The mean value in the new dataset is 10,766 steps.</p>
 <ol start="5" style="list-style-type: decimal">
 <li>Calculate and report the <strong>median</strong> total number of steps taken per day using the new dataset.</li>
 </ol>
 <pre class="r"><code>median(step_sum2$x,na.rm=TRUE)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
-<p>Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</p>
+<p>The median value in the new dataset is 10,766 steps.</p>
+<p><strong>Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</strong></p>
 <p>The mean value for total steps taken per day is the same for both datasets. The main difference is in the total value of steps across all days.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">

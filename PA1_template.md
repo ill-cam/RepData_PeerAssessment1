@@ -84,6 +84,8 @@ median(step_sum$x,na.rm=TRUE)
 ## [1] 10765
 ```
 
+The median total number of steps taken each day is 10,765.
+
 ## What is the average daily activity pattern?
 
 1. Make a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis).
@@ -163,6 +165,8 @@ mean(step_sum2$x,na.rm=TRUE)
 ## [1] 10766.19
 ```
 
+The mean value in the new dataset is 10,766 steps. 
+
 5. Calculate and report the **median** total number of steps taken per day using the new dataset.
 
 
@@ -174,7 +178,9 @@ median(step_sum2$x,na.rm=TRUE)
 ## [1] 10766.19
 ```
 
-Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
+The median value in the new dataset is 10,766 steps.
+
+**Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?**
 
 The mean value for total steps taken per day is the same for both datasets. The main difference is in the total value of steps across all days.
 
